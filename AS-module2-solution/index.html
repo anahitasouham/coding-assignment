@@ -25,12 +25,22 @@
       padding: 20px;
       float: left;
     }
-   
+
+    .row {
+      width: 100%;
+      position: relative;
+    }
+    
     @media (min-width: 992px) {
       p { 
         margin: 1.5%;
         width: 30%;
       }
+      #chicken {
+        width: 25%;
+        position: absolute;
+        right: 10px;
+        top: 10px;
     }
     
     @media (min-width: 768px) and (max-width: 991px) {
@@ -55,18 +65,18 @@
   <body>
     <h1>Our Menu</h1>
     
-    <div>
-      <p id="chicken">Chicken</p>
+    <div class="row">
+      <div id="chicken"><p>Chicken</p></div>
       <p id="p1" class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
       
     <div>
-      <p id="beef">Beef</p>
+      <p>Beef</p>
       <p id="p2" class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
       
     <div>
-      <p id="sushi">Sushi</p>
+      <p>Sushi</p>
       <p id="p3" class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
 
