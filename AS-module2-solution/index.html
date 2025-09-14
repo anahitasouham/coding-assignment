@@ -19,25 +19,42 @@
       text-align: center;
     }
 
-    .lorem {
+    .sections {
       background-color: grey;
       border: 1px solid black;
       position: relative;
       padding: 20px;
       float: left;
     }
-    
-    @media (min-width: 992px) {
-      .lorem {
-        width: 30%;
-        margin: 1.5%;
-      }
+
       #chicken {
-        width: 25%;
+        width: 33.33%;
         background-color: pink;
         position: absolute;
-        right: 10px;
-        top: 10px;
+        right: 0px;
+        top: 0px;
+      }
+
+      #beef {
+        width: 33.33%;
+        background-color: red;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+      }
+    
+      #sushi {
+        width: 33.33%;
+        background-color: yellow;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+      }
+    
+    @media (min-width: 992px) {
+      .sections {
+        width: 30%;
+        margin: 1.5%;
       }
     }
     
@@ -63,19 +80,19 @@
   <body>
     <h1>Our Menu</h1>
     
-    <div class="lorem">
+    <div class="sections">
       <div id="chicken"><p>Chicken</p></div>
       <p id="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
       
-    <div class="lorem">
-      <p>Beef</p>
-      <p id="p2" class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <div class="sections">
+      <div id="beef"><p>Beef</p></div>
+      <p id="p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
       
-    <div class="lorem">
+    <div class="sections">
       <p>Sushi</p>
-      <p id="p3" class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <p id="p3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
 
   </body>
